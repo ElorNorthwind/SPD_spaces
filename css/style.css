@@ -14,22 +14,22 @@ form {
     display       : flex;
     flex-wrap     : wrap;
     flex-direction: column;
-padding: 5px;
+    padding: 5px;
+    align-items:center;
 }
 
 form > textarea {
-   width: 100%;
+   width: 90%;
    height: 45%;
    resize: none;
    flex-basis: 47%;
-
    box-sizing: border-box;
 }
 
 form > button {
     cursor: pointer;
     display: block;
-    width: 100%;
+    width: 90%;
     flex-basis: 4%;
     margin:  5px 0px;
  }
